@@ -1,0 +1,235 @@
+/* header styles */
+
+.header-main-div{
+    max-width: 1184px;
+    width: 90%;
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.ul-items{
+    width: 428px;
+    column-gap: 64px;
+    display: flex;
+}
+.sign-up{
+    display: flex;
+}
+.log{
+    width: 105px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    width: 115px;
+    height: 49px;
+    border-radius: 100px;
+    background-color: #5D50C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#EEEEEE;
+    
+}
+.li-tags{
+font-family: 'Circular Std';
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+color: #19182580;
+
+}
+.active{
+    color: #222831;
+}
+.burger{
+    display: none;
+}
+
+                /* main styles */
+.section1-container{
+    max-width: 1184px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 64px 0;
+    display: flex;
+   
+
+} 
+.sec1-right{
+    width: 772px;
+}
+.img1{
+    width: 100%;
+}
+.sec1-left{
+    width: 412px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+}
+.sec1-left-bottom{
+    display: flex;
+    column-gap: 16px;
+    width: 338px;
+}            
+.sec1-left-bottom1{
+    width: 141px;
+    height: 49px;
+    border-radius: 100px;
+    background-color:#5D50C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color:#EEEEEE;
+    
+}   
+.sec1-left-bottom2{
+    width: 181px;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #222831;
+}
+.h1{
+font-family: 'Circular Std';
+font-size: 69px;
+font-weight: 700;
+line-height: 82.8px;
+text-align: left;
+color:#000000;
+}
+.span1{
+    color: #F85E9F;
+}
+.sec1-ptag1{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: #19182580;
+}
+
+/* section-2 styles */
+.section2{
+    margin-top: 197px;
+}
+.section2-container{
+    padding: 64px 0;
+    max-width: 1184px;
+    width: 90%;
+    margin: 0 auto;
+}
+.sec2-up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.sec2-up-right{
+    display: flex;
+    column-gap: 32px;
+}
+.arrow{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1918251A;
+
+}
+.arrow-color{
+    background-color: #5D50C6;
+}
+.sec2-up-left-p{
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #F85E9F;
+}
+.sec2-up-left-h3{
+    font-family: Circular Std;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    color: #191825;
+}
+.sec2-down{
+    display: flex;
+    column-gap: 32px;
+}
+.sec2-down-mini{
+    width: 373px;
+    border-radius: 7%;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.discr{
+    width: 309.33px;
+    margin: 32px auto;
+    align-items: top;
+}
+
+.discr-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.star{
+    width: 66px;
+    display: flex;
+    margin-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+.space{   
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    color:  #191825;
+}
+.price{
+   
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    color: #F85E9F;
+}
+.country{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color:#191825BF;
+}
+.raiting{
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    color: #FF5722;
+}
