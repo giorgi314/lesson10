@@ -51,11 +51,7 @@
     .sec2-up-right{
         margin-top: 64px;
     }
-    .discr{
-        width: 214px;
-        margin: 0 auto;
-        margin-top: 32px;
-    }
+    
     .discr-up{
         flex-direction: column-reverse;
         row-gap: 8px;
@@ -74,17 +70,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        row-gap: 24px;
     }
     .img1{
         max-width: 396px;
         width: 100%;
     }
-    .sec1-left-bottom{
-        width: 398px;
-    }
-    .sec1-left-bottom1{
-        width: 100%;
-    }
+    
+    .sec1-left-bottom1,
     .sec1-left-bottom2{
         width: 100%;
     }
@@ -92,4 +85,20 @@
         font-size: 40px;
         line-height: 48px;
     }
+    .arrow{
+        width: 64px;
+        height: 64px;
+    }
+    .sec2-up-right{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sec2-down{
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .sec2-up-left-h3{
+        font-size: 32px;
+    }
+    
 }

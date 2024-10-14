@@ -177,19 +177,21 @@ color: #19182580;
     color: #191825;
 }
 .sec2-down{
+    width: 100%;
     display: flex;
     column-gap: 32px;
+  
 }
 .sec2-down-mini{
-    width: 373px;
     border-radius: 7%;
     box-shadow: 5px 5px 10px grey;
-
+}
+.fish-img{
+    width: 100%;
 }
 .discr{
-    width: 309.33px;
-    margin: 32px auto;
-    align-items: top;
+    margin: 32px;
+    align-items: flex-start;
 }
 
 .discr-up{
