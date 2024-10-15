@@ -87,6 +87,21 @@
    }
    .sec4-container{
     padding: 64px 32px;
+    margin-bottom: 0 ;
+   }
+   .footer-container{
+    max-width: 897px;
+    width: 90%;
+    margin: 0 auto;
+   flex-direction: column;
+   row-gap: 64px;
+   }
+   .footer-left{
+    width: 100%;
+   }
+   .footer-right{
+    width: 100%;
+    justify-content: space-between;
    }
     }
     
@@ -151,5 +166,23 @@
     }
     .start{
         text-align: left;
+    }
+    .sec4-container{
+        margin-bottom: 44px;
+    }
+    .footer-container{
+        max-width: 398px;
+        width: 90%;
+    }
+    .footer-right{
+        flex-direction: column;
+        row-gap: 64px;
+    }
+    .foot-li{
+        display: none;
+    }
+    .footer-p{
+        font-size: 16px;
+        line-height: 25.6px;
     }
 }
